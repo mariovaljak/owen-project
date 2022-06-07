@@ -1,0 +1,52 @@
+{
+    "movies": [
+        {
+            "title": "Hall Pass",
+            "id": 1,
+            "year": 2011,
+            "release_date": "2011-02-25",
+            "director": "Peter Farrelly and Bobby Farrelly",
+            "character": "Rick Mills",
+            "movie_duration": "01:51:35",
+            "timestamp": "00:26:42",
+            "full_line": "\"Wow, you must've really pushed her to get her to this point.\"",
+            "current_wow_in_movie": 2,
+            "total_wows_in_movie": 6,
+            "poster": "https://images.ctfassets.net/bs8ntwkklfua/6jFEUPmYiKifaTuC2cugm8/22087834d091445fc9393cdd9163a901/Hall_Pass_Poster.jpg",
+            "video": "https://videos.ctfassets.net/bs8ntwkklfua/v4i8OtLOreAIlzfyKnG0h/8e8774f7cde53dbee9bafdb765a3408a/Hall_Pass_Wow_2_1080p.mp4",
+            "audio": "https://assets.ctfassets.net/bs8ntwkklfua/7jethDcTeec0ge8SD4eSej/9c825d8be2d05ec763df2434a10576a3/Hall_Pass_Wow_2.mp3"
+        },
+        {
+            "title": "Shanghai Knights",
+            "id": 2,
+            "year": 2003,
+            "release_date": "2003-02-03",
+            "director": "David Dobkin",
+            "character": "Roy O'Bannon",
+            "movie_duration": "01:54:21",
+            "timestamp": "01:36:17",
+            "full_line": "Hey, I can see our hotel from here! Wow.",
+            "current_wow_in_movie": 3,
+            "total_wows_in_movie": 4,
+            "poster": "https://images.ctfassets.net/bs8ntwkklfua/4pb4EMrNtfK3x9PyTMLcGl/bd4d6db24a4247b0f33211eeb882c26a/Shanghai_Knights_Poster.jpg",
+            "video": "https://videos.ctfassets.net/bs8ntwkklfua/1Astr9fayq6pkeVYJmdBVU/9e04fa628af74c800e7f43f7a9e0d2e7/Shanghai_Knights_Wow_3_1080p.mp4",
+            "audio": "https://assets.ctfassets.net/bs8ntwkklfua/6BOieQV4K46p9nm7rFc7eG/cc7465cb72c8fb48ee9fc6b82470d1fd/Shanghai_Knights_Wow_3.mp3"
+        },
+        {
+            "title": "Marmaduke",
+            "id": 3,
+            "year": 2010,
+            "release_date": "2010-06-04",
+            "director": "Tom Dey",
+            "character": "Marmaduke",
+            "movie_duration": "01:28:10",
+            "timestamp": "00:12:21",
+            "full_line": "Wow. This is Phil's office?",
+            "current_wow_in_movie": 2,
+            "total_wows_in_movie": 4,
+            "poster": "https://images.ctfassets.net/bs8ntwkklfua/1M4wQc5Rkk9mlcKB5Z4fga/25fef21907983d1d667e7e28c6a0ed14/Marmaduke_Poster.jpg",
+            "video": "https://videos.ctfassets.net/bs8ntwkklfua/3XjUFC9OLLHAJ1hWEI1bGP/dc39733ed4356320d8abe110c3176369/Marmaduke_Wow_2_1080p.mp4",
+            "audio": "https://assets.ctfassets.net/bs8ntwkklfua/1eoQ6zaqTGIOcBguxXp4kb/80dd96f4a2337cf154b7a474c27f1c2d/Marmaduke_Wow_2.mp3"
+        }
+    ]
+}
