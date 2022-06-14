@@ -1,15 +1,12 @@
 <template>
-  <div v-if="movie" class="container">
-    <h2>{{ movie.title }}</h2>
+  <div v-if="item" v-for="movie in item" class="container">
+    <h2>{{ movie.movie }}</h2>
     <p>Movie year: {{ movie.year }}</p>
     <p>Release date: {{ movie.release_date }}</p>
     <p>Movie director: {{ movie.director }}</p>
     <p>Movie duration: {{ movie.movie_duration }}</p>
     <section>
       <img v-bind:src="movie.poster" alt="" />
-      <video controls width="320" height="240">
-        <source v-bind:src="movie.video" type="video/mp4" />
-      </video>
       <audio controls v-bind:src="movie.audio"></audio>
     </section>
   </div>
@@ -17,16 +14,19 @@
 
 <script>
 export default {
-  props: ["id"],
+  props: ["movie"],
   data() {
     return {
-      movie: null,
+      item: null,
     };
   },
   mounted() {
-    fetch("http://localhost:3000/movies/" + this.id)
+    fetch(
+      "https://owen-wilson-wow-api.herokuapp.com/wows/random?movie=" +
+        this.movie
+    )
       .then((res) => res.json())
-      .then((data) => (this.movie = data))
+      .then((data) => (this.item = data))
       .catch((err) => console.log(err.message));
   },
 };

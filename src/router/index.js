@@ -21,7 +21,7 @@ const routes = [
     component: Owen
   },
   {
-    path: '/owen/:id',
+    path: '/owen/:movie',
     name: 'MovieDetails',
     component: MovieDetails,
     props: true

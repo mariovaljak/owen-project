@@ -1,8 +1,8 @@
 <template>
   <h1>Movie Titles</h1>
-  <div v-for="movie in movies" :key="movie.id" class="movie">
-    <router-link :to="{ name: 'MovieDetails', params: { id: movie.id } }">
-      <h2>{{ movie.title }}</h2>
+  <div v-for="movie in movies" :key="movie.movie" class="movie">
+    <router-link :to="{ name: 'MovieDetails', params: { movie: movie.movie } }">
+      <h2>{{ movie.movie }}</h2>
     </router-link>
   </div>
 </template>
@@ -15,7 +15,9 @@ export default {
     };
   },
   mounted() {
-    fetch("http://localhost:3000/movies")
+    fetch(
+      "https://owen-wilson-wow-api.herokuapp.com/wows/random?results=8&sort=movie&direction=desc"
+    )
       .then((res) => res.json())
       .then((data) => (this.movies = data))
       .catch((err) => console.log(err.message));
