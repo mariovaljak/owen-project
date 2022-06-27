@@ -14,6 +14,9 @@
         sit tenetur alias exercitationem excepturi. Neque earum numquam dolore
         error illo praesentium tenetur voluptates itaque laboriosam sit.
       </p>
+      <div class="animation">
+        <h3><span></span> is the best!</h3>
+      </div>
     </div>
   </div>
 </template>
@@ -30,5 +33,28 @@ h1 {
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
   text-transform: uppercase;
+}
+.animation {
+  margin-top: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+h3 span::before {
+  content: "Funkhaus";
+  color: #2d3d2f;
+  text-decoration-line: underline;
+  animation: text 6s 1;
+  animation-delay: 1s;
+}
+@keyframes text {
+  25% {
+    content: "Drew";
+  }
+  50% {
+    content: "Svebor";
+  }
+  80% {
+    content: "Mario";
+  }
 }
 </style>

@@ -7,6 +7,7 @@
     <p>Movie duration: {{ movie.movie_duration }}</p>
     <section>
       <img v-bind:src="movie.poster" alt="" />
+      <video controls v-bind:src="movie.video"></video>
       <audio controls v-bind:src="movie.audio"></audio>
     </section>
   </div>
