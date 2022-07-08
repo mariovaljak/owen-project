@@ -44,7 +44,7 @@ h3 span::before {
   color: #2d3d2f;
   text-decoration-line: underline;
   animation: text 6s 1;
-  animation-delay: 1s;
+  animation-delay: 1.5s;
 }
 @keyframes text {
   25% {
